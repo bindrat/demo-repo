@@ -3,7 +3,7 @@ pipeline {
   agent any
 
   environment {
-    DOCKER_USER = "bijuindrat"                      // change if different
+    DOCKER_USER = "bindrat1"                      // change if different
     IMAGE = "${DOCKER_USER}/demo-service"
     REGISTRY_CREDENTIALS = 'dockerhub-creds'     // Jenkins credential id for Docker Hub
     // Optionally: If you uploaded kubeconfig to Jenkins as "Secret file" credential,
