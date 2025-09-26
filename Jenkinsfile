@@ -1,4 +1,4 @@
-// Jenkinsfile - build image, push to Docker Hub, and deploy to k3s
+// Jenkinsfile - build image, push to Docker Hub, and deploy to k3s; testing webhook
 pipeline {
   agent any
 
